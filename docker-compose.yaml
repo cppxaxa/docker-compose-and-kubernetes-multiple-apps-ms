@@ -1,0 +1,49 @@
+version: "3.9"
+
+services:
+  app001:
+    hostname: app001
+    container_name: app001
+    build: app001-nearby-places-viewer/.
+    ports:
+      - "8000:80"
+    networks:
+      - vnet001
+  service001:
+    hostname: service001
+    container_name: service001
+    build: service001-nearby-places-viewer/.
+    ports:
+      - "8001:80"
+    networks:
+      - vnet001
+  service002:
+    hostname: service002
+    container_name: service002
+    build: service002-proxy/.
+    ports:
+      - "8002:80"
+    networks:
+      - vnet001
+  reverse001:
+    hostname: reverse001
+    container_name: reverse001
+    build: reverse001-nginx/.
+    ports:
+      - "80:80"
+    networks:
+      - vnet001
+    # depends_on:
+    #   - "app001"
+    #   - "service001"
+    #   - "service002"
+  # pinger001:
+  #   hostname: pinger001
+  #   container_name: pinger001
+  #   build: pinger001/.
+  #   networks:
+  #     - vnet001
+
+networks:
+  vnet001:
+    name: vnet001

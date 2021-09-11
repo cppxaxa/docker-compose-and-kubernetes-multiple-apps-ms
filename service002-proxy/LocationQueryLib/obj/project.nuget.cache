@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "dPRNoLuYzXVttRtWgoP18picXt63llm/K3JLOCaiGJLKOQRgOA8YHFRWz1SZiJgZ5svvwWfLUXzf2XMU3PJG7g==",
+  "success": true,
+  "projectFilePath": "C:\\Projects\\AksExperiment001\\MultiApp001\\service002-proxy\\LocationQueryLib\\LocationQueryLib.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\prateekxaxa\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "ziak6jqasf5GurcmuC3c5voL7Ptdjqc3nbezSfGAfMlYSYzRuPjf5OYUwLZf/Bi0rzd3aCM8ruKntY93J2n9Yw==",
+  "success": true,
+  "projectFilePath": "C:\\Projects\\AksExperiment001\\MultiApp001\\service002-proxy\\ConsoleManualTest\\ConsoleManualTest.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\prateekxaxa\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

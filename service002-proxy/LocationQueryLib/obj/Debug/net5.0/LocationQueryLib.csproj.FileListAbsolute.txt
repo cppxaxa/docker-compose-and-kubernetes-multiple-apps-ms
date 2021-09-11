@@ -1,0 +1,12 @@
+C:\Projects\AksExperiment001\MultiApp001\service002-proxy\LocationQueryLib\obj\Debug\net5.0\LocationQueryLib.csprojAssemblyReference.cache
+C:\Projects\AksExperiment001\MultiApp001\service002-proxy\LocationQueryLib\obj\Debug\net5.0\LocationQueryLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\AksExperiment001\MultiApp001\service002-proxy\LocationQueryLib\obj\Debug\net5.0\LocationQueryLib.AssemblyInfoInputs.cache
+C:\Projects\AksExperiment001\MultiApp001\service002-proxy\LocationQueryLib\obj\Debug\net5.0\LocationQueryLib.AssemblyInfo.cs
+C:\Projects\AksExperiment001\MultiApp001\service002-proxy\LocationQueryLib\obj\Debug\net5.0\LocationQueryLib.csproj.CoreCompileInputs.cache
+C:\Projects\AksExperiment001\MultiApp001\service002-proxy\LocationQueryLib\bin\Debug\net5.0\LocationQueryLib.deps.json
+C:\Projects\AksExperiment001\MultiApp001\service002-proxy\LocationQueryLib\bin\Debug\net5.0\LocationQueryLib.dll
+C:\Projects\AksExperiment001\MultiApp001\service002-proxy\LocationQueryLib\bin\Debug\net5.0\ref\LocationQueryLib.dll
+C:\Projects\AksExperiment001\MultiApp001\service002-proxy\LocationQueryLib\bin\Debug\net5.0\LocationQueryLib.pdb
+C:\Projects\AksExperiment001\MultiApp001\service002-proxy\LocationQueryLib\obj\Debug\net5.0\LocationQueryLib.dll
+C:\Projects\AksExperiment001\MultiApp001\service002-proxy\LocationQueryLib\obj\Debug\net5.0\ref\LocationQueryLib.dll
+C:\Projects\AksExperiment001\MultiApp001\service002-proxy\LocationQueryLib\obj\Debug\net5.0\LocationQueryLib.pdb
