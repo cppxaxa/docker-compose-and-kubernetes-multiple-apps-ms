@@ -1,0 +1,33 @@
+#ingress.yaml
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: ingress-001
+  annotations:
+    kubernetes.io/ingress.class: addon-http-application-routing
+spec:
+  rules:
+    - host: 52b412e99bbf42db8daa.westeurope.aksapp.io
+      http:
+        paths:
+          - backend: # How the ingress will handle the requests
+              service:
+               name: service002 # Which service the request will be forwarded to
+               port:
+                 name: http # Which port in that service
+            path: /swagger # Which path is this rule referring to
+            pathType: Prefix # See more at https://kubernetes.io/docs/concepts/services-networking/ingress/#path-types
+          - backend: # How the ingress will handle the requests
+              service:
+               name: service002 # Which service the request will be forwarded to
+               port:
+                 name: http # Which port in that service
+            path: /api # Which path is this rule referring to
+            pathType: Prefix # See more at https://kubernetes.io/docs/concepts/services-networking/ingress/#path-types
+          - backend: # How the ingress will handle the requests
+              service:
+               name: app001 # Which service the request will be forwarded to
+               port:
+                 name: http # Which port in that service
+            path: / # Which path is this rule referring to
+            pathType: Prefix # See more at https://kubernetes.io/docs/concepts/services-networking/ingress/#path-types
